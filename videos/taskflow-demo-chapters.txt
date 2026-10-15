@@ -1,0 +1,32 @@
+TaskFlow live demo
+https://taskflow-ir9c.onrender.com
+
+00:00:00  Two browsers. Two roles. One shared workspace.
+00:00:04  Create the Project Head account
+00:00:14  Create the Assignee account
+00:00:28  Create a project
+00:00:42  Check who is available
+00:00:46  Assign work and watch it arrive live
+00:01:02  Open the task details
+00:01:07  Drag, confirm, or cancel
+00:01:15  Start work and sync the Project Head board
+00:01:27  Edit task details from the Project Head account
+00:01:41  Complete the task
+00:01:55  Availability updates immediately
+00:02:00  Assign the next task
+00:02:14  Enforce one active task per person
+00:02:28  Finish the release checklist
+00:02:40  Refresh to verify persistence
+00:02:47  Live collaboration verified
+
+Verified actions
+- Project Head registered in Chrome
+- Assignee registered in Edge
+- Assignment appeared live in the independent Assignee browser
+- Canceled drag preserved original status
+- Assignee status change appeared live in Project Head browser
+- Edited task details appeared live in Assignee browser
+- Completion synchronized to both browsers
+- Completed task freed Assignee for another assignment
+- One-active-task conflict rejected reopening, preserving completed task
+- Refresh restored authentication and completed tasks

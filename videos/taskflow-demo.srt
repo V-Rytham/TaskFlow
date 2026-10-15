@@ -1,0 +1,84 @@
+1
+00:00:00,001 --> 00:00:04,015
+Two browsers. Two roles. One shared workspace.
+Live deployed app | Chrome on the left, Microsoft Edge on the right
+
+2
+00:00:04,015 --> 00:00:14,092
+Create the Project Head account
+Avery will create projects, assign work, and monitor progress.
+
+3
+00:00:14,092 --> 00:00:28,599
+Create the Assignee account
+Riley signs in independently and sees a personal task board.
+
+4
+00:00:28,599 --> 00:00:42,364
+Create a project
+The Project Head owns the project and manages its tasks.
+
+5
+00:00:42,364 --> 00:00:46,870
+Check who is available
+The Assignee is available because there is no active task.
+
+6
+00:00:46,870 --> 00:01:02,146
+Assign work and watch it arrive live
+Watch the right-hand board: the task appears without a refresh.
+
+7
+00:01:02,146 --> 00:01:07,856
+Open the task details
+The Assignee can inspect the project, assignment, status, and timestamps.
+
+8
+00:01:07,856 --> 00:01:15,198
+Drag, confirm, or cancel
+Canceling a move keeps the task in its original column.
+
+9
+00:01:15,198 --> 00:01:27,839
+Start work and sync the Project Head board
+Confirm the move on the right; the left-hand board updates live.
+
+10
+00:01:27,839 --> 00:01:41,672
+Edit task details from the Project Head account
+The new title and description sync back to the Assignee.
+
+11
+00:01:41,672 --> 00:01:55,059
+Complete the task
+Moving the task to Done updates both boards and frees the Assignee.
+
+12
+00:01:55,059 --> 00:02:00,160
+Availability updates immediately
+Riley is available again after completing the active task.
+
+13
+00:02:00,160 --> 00:02:14,353
+Assign the next task
+The finished task remains in history while the next task arrives live.
+
+14
+00:02:14,353 --> 00:02:28,210
+Enforce one active task per person
+Reopening finished work is rejected while another active task exists.
+
+15
+00:02:28,210 --> 00:02:40,455
+Finish the release checklist
+The second task completes and both cards stay visible as history.
+
+16
+00:02:40,455 --> 00:02:47,492
+Refresh to verify persistence
+Only now refresh the Assignee browser: completed work is restored.
+
+17
+00:02:47,492 --> 00:02:54,504
+Live collaboration verified
+Assignment, edits, status, availability, validation, and persistence demonstrated.
