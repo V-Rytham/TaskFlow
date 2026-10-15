@@ -1,0 +1,40 @@
+{
+  "name": "taskflow",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -k \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces && tsc --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --strict --skipLibCheck --types node playwright.config.ts e2e/taskflow.spec.ts",
+    "lint": "eslint client/src server/src server/test server/scripts e2e",
+    "format": "prettier --write client/src server/src server/test",
+    "test": "npm run test --workspaces",
+    "db:migrate": "npm run db:migrate -w server",
+    "db:seed": "npm run db:seed -w server",
+    "db:start": "node scripts/database.mjs",
+    "test:e2e": "playwright test",
+    "start": "npm run db:migrate && npm run start -w server",
+    "build:deploy": "npm run db:generate && npm run build",
+    "db:generate": "npm run db:generate -w server"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.20.5",
+    "concurrently": "^9.2.0",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.0",
+    "typescript-eslint": "^8.40.0"
+  },
+  "overrides": {
+    "effect": "^3.20.0",
+    "deepmerge-ts": "^8.0.0",
+    "tinypool": "^2.1.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0 <23"
+  }
+}
