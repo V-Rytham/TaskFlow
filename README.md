@@ -10,9 +10,9 @@ Each Assignee can have only one active task across all projects. This is enforce
 
 The recording shows a Project Head in Chrome and an Assignee in Edge, side by side. It covers registration, project creation, assignment, edits, drag-and-drop, completion, and the one-active-task rule.
 
-[![Watch the TaskFlow demo](videos/taskflow-demo-poster.jpg)](videos/taskflow-demo.mp4)
+[![Watch the TaskFlow demo](videos/taskflow-demo-poster.jpg)](https://github.com/V-Rytham/TaskFlow/raw/refs/heads/main/videos/taskflow-demo.mp4)
 
-[Open or download the recording](videos/taskflow-demo.mp4) — 2:55, 1080p, with on-screen captions. [Subtitle file](videos/taskflow-demo.srt).
+[Download the recording](https://github.com/V-Rytham/TaskFlow/raw/refs/heads/main/videos/taskflow-demo.mp4) — 2:55, 1080p, with on-screen captions. [Subtitle file](videos/taskflow-demo.srt).
 
 ## Stack
 
